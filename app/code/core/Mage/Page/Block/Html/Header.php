@@ -48,6 +48,11 @@ class Mage_Page_Block_Html_Header extends Mage_Core_Block_Template
         return $this->getUrl('', array('_current' => true)) == $this->getUrl('*/*/*', array('_current' => true, '_use_rewrite' => true));
     }
 
+    /**
+     * @param $logo_src
+     * @param $logo_alt
+     * @return $this
+     */
     public function setLogo($logo_src, $logo_alt)
     {
         $this->setLogoSrc($logo_src);
