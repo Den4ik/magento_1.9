@@ -1,0 +1,4 @@
+.idea
+app/etc/local.xml
+var/session
+var/cache
